@@ -1,0 +1,40 @@
+#ind{
+    text-align: center;
+    line-height: 20px;
+    margin-top: 70px;
+    position: relative;
+    ;
+}
+.text-ind-1{
+    padding-top: 90px;
+    font-size: 50px;
+
+}
+.text-ind-2{
+    font-size: 65px;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+.text-ind-3{
+    font-size: 30px;
+    padding-top: 35px;
+
+}
+.text-family{
+    font-family: 'Open Sans Condensed', sans-serif ;
+}
+a.nav-hover:hover, a.nav-hover:active{
+    background: #0e8ee3
+}
+
+.contactme{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.contact{
+    width: 300px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}

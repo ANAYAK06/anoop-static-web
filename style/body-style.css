@@ -1,0 +1,18 @@
+body{
+    
+    background: rgb(255,255,255);
+    background: linear-gradient(324deg, rgba(255,255,255,1) 61%, rgba(224,224,224,1) 68%, rgba(148,148,148,1) 76%, rgba(156,156,156,1) 81%, rgba(140,140,140,1) 85%, rgba(71,71,71,1) 89%, rgba(60,60,60,1) 96%);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100%;
+}
+.pro-img{
+    width: 500px;
+    object-position: right;
+    border: 0;
+}
+.img-background{
+    width: 200px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.7903536414565826) 90%, rgba(224,224,224,1) 92%, rgba(148,148,148,1) 95%, rgba(156,156,156,1) 96%, rgba(140,140,140,1) 97%, rgba(140,140,140,1) 99%);
+}
