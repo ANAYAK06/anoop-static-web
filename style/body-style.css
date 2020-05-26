@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: 100%;
+    font-family:'Open Sans Condensed', sans-serif ;
 }
 .pro-img{
     width: 500px;
@@ -22,4 +23,3 @@ body{
    
 
 
-}

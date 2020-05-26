@@ -88,3 +88,27 @@ h3{
 background: linear-gradient(90deg, rgba(255,255,255,0.7903536414565826) 2%, rgba(224,224,224,1) 71%, rgba(148,148,148,1) 83%, rgba(156,156,156,1) 89%, rgba(140,140,140,1) 94%, rgba(140,140,140,1) 97%, rgba(160,160,160,1) 100%);
 
 }
+li{
+    font-weight: bold;
+}
+#footer{
+    background-color:#333231 ;
+}
+
+.social-media-footer  a{
+    
+    text-decoration: none;
+    transition: 0.4s;
+    color: #706e6c;
+    font-size: 20px;
+    padding: 5px;
+    margin-right:5px;
+}
+.social-media-footer a:hover{
+    background-color:#333231;
+
+}
+.social-media-footer a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+
+}
