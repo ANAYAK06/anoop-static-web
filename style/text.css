@@ -112,3 +112,14 @@ li{
     transform: scale(1.6) rotate(25deg);
 
 }
+.experience-list{
+    margin-left: 55px;
+}
+.qlinks{
+    text-decoration: none;
+    color: #706e6c;
+}
+.footer-links{
+    color: #878583;
+
+}
