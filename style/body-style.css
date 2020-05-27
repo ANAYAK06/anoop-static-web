@@ -19,7 +19,11 @@ body{
     background: linear-gradient(90deg, rgba(255,255,255,0.7903536414565826) 90%, rgba(224,224,224,1) 92%, rgba(148,148,148,1) 95%, rgba(156,156,156,1) 96%, rgba(140,140,140,1) 97%, rgba(140,140,140,1) 99%);
 }
 
-
+#service{
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
    
 
 
