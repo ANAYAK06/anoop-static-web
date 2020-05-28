@@ -188,7 +188,7 @@
                       <input  class="hire-contact"type="number" placeholder="Phone Number" required>
                       <input class="hire-contact" type="number" placeholder="Your Budget" required>
                       <input  class="hire-contact" style="height: 100px;" type="text" placeholder="Message">
-                      <button onclick="show()" class=" show btn btn-primary"  style="margin-left: 45%; margin-top: 10px;" type="submit" >Submit</button>
+                      <button class=" pop btn btn-primary"  style="margin-left: 45%; margin-top: 10px;" type="submit" >Submit</button>
                       
                       
                     </form>
@@ -313,6 +313,13 @@
     <!-- Optional JavaScript -->
     <script>
       document.querySelector('.show').addEventListener('click',
+      success);
+      function success(){
+        swal("Thank You !","for your interest","success");
+      }
+    </script>
+    <script>
+      document.querySelector('.pop').addEventListener('click',
       success);
       function success(){
         swal("Thank You !","for your interest","success");
