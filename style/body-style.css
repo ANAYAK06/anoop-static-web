@@ -9,7 +9,7 @@ body{
 }
 .pro-img{
     width: 500px;
-    object-position: right;
+    object-position:left;
     border: transparent;
     border-radius: 10%;
 }
