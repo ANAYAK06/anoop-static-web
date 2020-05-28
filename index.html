@@ -8,13 +8,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" >
     <script src="https://kit.fontawesome.com/741f4e4eb3.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
     <link rel="stylesheet" href="style/body-style.css">
     <link rel="stylesheet" href="style/text.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="images/logo.jpg">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" >
+    
     
   </head>
   <div>
@@ -96,16 +98,11 @@
                                             <input  class="contact"type="email"placeholder="Email" > <br>
                                             <input  class="contact"type="number" placeholder="Phone" > <br>
                                             <input   class="contact" style="height: 100px;" type="text" placeholder="Message" > <br>
-                                            <button type="submit" class="btn btn-primary mt-2" onclick="popUp()" id="pop">Submit</button>
+                                            <button type="submit" class=" show btn btn-primary mt-2"  id="pop">Submit</button>
                                             
                                         </form>
                                         
-                                        <script>
-                                          function popUp(){
-                                            alert("Thank You")
-                                            
-                                          }
-                                        </script>
+                                        
                                         
                                       
                                     </div>
@@ -176,10 +173,32 @@
                       <h5 class="card-title " style="font-weight: bold;font-size: 20px; ">Website Design</h5>
                       <p class="card-text">Get some smartest responsive Web site with unique design by using</p>
                       
-                      <a href="#" class="btn btn-primary">Hire me for this</a>
+                      <a href="#" class="btn btn-primary" id="hire-button">Hire me for this</a>
+                      
                     </div>
                   </div>
                 </div>
+                <!-- contact-hire model starts -->
+                <div class="bg-model">
+                  <div class="model-content">
+                    <h4 class="text-center">Your hiring Me for your Web Site Design Project</h4>
+                    <form action="">
+                      <input class="hire-contact" type="text" placeholder="Name" required>
+                      <input  class="hire-contact"type="email" placeholder="Email" required>
+                      <input  class="hire-contact"type="number" placeholder="Phone Number" required>
+                      <input class="hire-contact" type="number" placeholder="Your Budget" required>
+                      <input  class="hire-contact" style="height: 100px;" type="text" placeholder="Message">
+                      <button onclick="show()" class=" show btn btn-primary"  style="margin-left: 45%; margin-top: 10px;" type="submit" >Submit</button>
+                      
+                      
+                    </form>
+                    <div class="pop-close">
+                      <input  class="btn-primary btn " type="button" value="Close" style="margin-top: 10px; margin-left: 46%;">
+                    </div>
+                    
+                  </div>
+                </div>
+                
                 <div class="col-md-4">
                   <div class="card mt-3 " style="width: 18rem; background-color: transparent; color: white; border: 2px solid; margin-left: 50px;">
                     <i class="fas fa-code text-center p-4  icon-card " style="font-size: 55px;" ></i>
@@ -292,10 +311,23 @@
   <body>
       
     <!-- Optional JavaScript -->
+    <script>
+      document.querySelector('.show').addEventListener('click',
+      success);
+      function success(){
+        swal("Thank You !","for your interest","success");
+      }
+    </script>
+     
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="scripts/contacts.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
   </body>
